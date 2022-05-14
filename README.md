@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an educational project for learning both Ruby and creating a JSON API. I followed this tutorial here: https://howtojsonapi.com/rails.html
 
-Things you may want to cover:
+## Functionality
 
+This project creates a rails server to generate restaurant related information as JSON data. I ran it using the following command and tested using Postman via localhost:
+```
+rails s
+```
+
+## Project Info:
 * Ruby version
+    * `3.1.2`
+
+* Rails version:
+    * `7.0.3`
 
 * System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    * gem 'jsonapi-resources'
